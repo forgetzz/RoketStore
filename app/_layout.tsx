@@ -5,9 +5,6 @@ import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -15,8 +12,10 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="HigsDomino" options={{ presentation: 'modal', title: 'Highs Domino Chip' }} />
+        <Stack.Screen name="Bongkar" options={{ presentation: 'modal', title: 'Bongkar Chip' }} />
+        <Stack.Screen name="Royal" options={{ presentation: 'modal', title: 'Royal Chip Chip' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
