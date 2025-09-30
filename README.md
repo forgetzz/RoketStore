@@ -2,7 +2,7 @@
 # 🚀 RoketStore  
 
 <p align="center">
-  <img src="./assets/logo.png" alt="RoketStore Logo" width="200"/>
+  <img src="./assets/images/qw.png" alt="RoketStore Logo" width="200"/>
 </p>
 
 RoketStore adalah aplikasi mobile berbasis **Expo (React Native)** ...
