@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🚀 RoketStore  
 
-## Get started
+<p align="center">
+  <img src="./assets/logo.png" alt="RoketStore Logo" width="200"/>
+</p>
 
-1. Install dependencies
+RoketStore adalah aplikasi mobile berbasis **Expo (React Native)** ...
 
-   ```bash
-   npm install
-   ```
+RoketStore adalah aplikasi mobile berbasis Expo (React Native) yang dirancang untuk memberikan pengalaman belanja digital yang cepat, simpel, dan praktis.
 
-2. Start the app
+✨ Fitur Utama
 
-   ```bash
-   npx expo start
-   ```
+🔔 Notifikasi Real-time – dapat update promo, diskon, atau pesan penting.
 
-In the output, you'll find options to open the app in a
+🛒 Belanja Digital – produk langsung tersedia tanpa ribet.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📱 UI Modern – desain clean dan ramah pengguna.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+⚡ Performa Cepat – dibangun dengan Expo & React Native untuk Android.
 
-## Get a fresh project
+📂 Struktur Project
+RoketStore/
+│-- app/            # Halaman utama aplikasi
+│-- assets/         # Gambar, ikon, dll.
+│-- package.json    # Konfigurasi npm
+│-- app.json        # Konfigurasi Expo
+│-- README.md       # Dokumentasi proyek
 
-When you're ready, run:
+🚀 Instalasi
 
-```bash
-npm run reset-project
-```
+Clone repo ini
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+git clone https://github.com/username/roketstore.git
+cd roketstore
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+npm install
 
-## Join the community
 
-Join our community of developers creating universal apps.
+Jalankan project
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
+
+📦 Build APK
+
+Untuk menghasilkan APK Android:
+
+npx expo prebuild
+npx expo run:android
+
+
+Atau gunakan EAS Build (disarankan):
+
+eas build -p android --profile preview
+
+📚 Dokumentasi Tambahan
+
+Expo Docs
+
+React Native Docs
+
+👨‍💻 Kontribusi
+
+Pull Request dipersilakan. Silakan buat issue jika ada bug atau saran fitur baru.
+
+📄 Lisensi
+
+Proyek ini menggunakan lisensi MIT.
