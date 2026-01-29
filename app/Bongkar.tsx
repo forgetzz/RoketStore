@@ -99,7 +99,11 @@ Nama Pemilik Rekening: ${accountName}`;
           dropdownIconColor="black"
         >
           <Picker.Item label="QRIS" value="QRIS" color="black" />
-          <Picker.Item label="MANDIRI" value="MANDIRI" color="black" />
+          <Picker.Item label="Dana" value="Dana" color="black" />
+          <Picker.Item label="ShopeePay" value="ShopeePay" color="black" />
+          <Picker.Item label="BNI" value="BNI" color="black" />
+          <Picker.Item label="Linkaja" value="Linkaja" color="black" />
+          <Picker.Item label="Mandiri" value="Mandiri" color="black" />
           <Picker.Item label="SEABANK" value="SEABANK" color="black" />
           <Picker.Item label="BCA" value="BCA" color="black" />
           <Picker.Item label="BRI" value="BRI" color="black" />
